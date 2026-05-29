@@ -141,10 +141,10 @@ function startGame() {
 function renderPlaces() {
   placeGrid.innerHTML = "";
 
-  questions.forEach(function (item) {
+  questions.forEach(function (item, index) {
     const placeButton = document.createElement("button");
     placeButton.type = "button";
-    placeButton.className = "place-card";
+    placeButton.className = `place-card map-position-${index + 1}`;
     placeButton.dataset.id = item.id;
     placeButton.innerHTML = `
       <span class="place-icon" aria-hidden="true">${item.icon}</span>
@@ -272,6 +272,11 @@ function markPlaceAsDone(questionId, isCorrect) {
     setTimeout(function () {
       placeButton.classList.remove("sparkle");
     }, 700);
+  } else {
+    placeButton.classList.add("miss");
+    setTimeout(function () {
+      placeButton.classList.remove("miss");
+    }, 560);
   }
 }
 

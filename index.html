@@ -11,6 +11,7 @@
   <main class="app-shell">
     <section id="startScreen" class="screen start-screen is-active" aria-labelledby="startTitle">
       <div class="hero-badge" aria-hidden="true">
+        <span class="detective-hat"></span>
         <span class="magnifier"></span>
         <span class="badge-star">★</span>
       </div>
@@ -70,6 +71,13 @@
       </div>
 
       <div class="map-wrap">
+        <div class="map-decoration map-title-sign" aria-hidden="true">AI 마을 지도</div>
+        <div class="map-decoration village-road road-main" aria-hidden="true"></div>
+        <div class="map-decoration village-road road-cross" aria-hidden="true"></div>
+        <div class="map-decoration pond" aria-hidden="true"></div>
+        <div class="map-decoration tree tree-one" aria-hidden="true"></div>
+        <div class="map-decoration tree tree-two" aria-hidden="true"></div>
+        <div class="map-decoration footprints" aria-hidden="true">• • • •</div>
         <div id="placeGrid" class="place-grid" aria-label="조사할 장소 목록"></div>
       </div>
       <p id="noticeText" class="notice-text" role="status" aria-live="polite"></p>
@@ -77,7 +85,12 @@
 
     <section id="resultScreen" class="screen result-screen" aria-labelledby="resultTitle">
       <div class="result-card">
-        <div class="result-icon" aria-hidden="true">🏅</div>
+        <div class="result-badge-medal" aria-hidden="true">
+          <span class="badge-ribbon left"></span>
+          <span class="badge-ribbon right"></span>
+          <span class="result-icon">🏅</span>
+          <span class="badge-label">AI DETECTIVE</span>
+        </div>
         <h1 id="resultTitle">탐정 활동 완료!</h1>
         <p id="finalScore" class="final-score"></p>
         <p id="finalRank" class="final-rank"></p>
