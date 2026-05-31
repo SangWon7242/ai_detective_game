@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrated AI village map</title>
+  <desc id="desc">A soft illustrated village map with roads, buildings, park areas, water, and paths.</desc>
+  <rect width="1200" height="720" rx="42" fill="#ccefb2"/>
+  <path d="M0 112 C180 42 314 136 456 96 C624 48 812 34 1200 82 L1200 0 L0 0 Z" fill="#e4f8cf" opacity=".8"/>
+  <path d="M0 650 C138 596 294 604 448 642 C650 692 806 652 984 620 C1076 604 1142 620 1200 654 L1200 720 L0 720 Z" fill="#9fdb80" opacity=".55"/>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-90 435 C112 342 240 402 396 340 C554 278 646 168 824 174 C962 178 1078 240 1290 178" stroke="#f6df9a" stroke-width="92"/>
+    <path d="M-90 435 C112 342 240 402 396 340 C554 278 646 168 824 174 C962 178 1078 240 1290 178" stroke="#f0c96a" stroke-width="7" stroke-dasharray="34 30"/>
+    <path d="M597 -40 C642 102 626 230 674 362 C724 500 792 596 766 760" stroke="#f6df9a" stroke-width="76"/>
+    <path d="M597 -40 C642 102 626 230 674 362 C724 500 792 596 766 760" stroke="#f0c96a" stroke-width="6" stroke-dasharray="28 28"/>
+    <path d="M242 760 C252 596 324 488 460 426 C558 382 664 388 792 420 C922 452 1034 426 1260 336" stroke="#ecd08b" stroke-width="54" opacity=".92"/>
+  </g>
+
+  <g opacity=".78">
+    <path d="M890 505 C958 466 1086 476 1134 540 C1177 598 1098 663 984 650 C884 638 820 546 890 505 Z" fill="#85d9ef"/>
+    <path d="M920 526 C978 505 1046 514 1090 552" fill="none" stroke="#dff9ff" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g fill="#fff7d6" stroke="#d39b57" stroke-width="5">
+    <rect x="92" y="144" width="116" height="78" rx="14"/>
+    <rect x="242" y="186" width="94" height="94" rx="14"/>
+    <rect x="420" y="128" width="138" height="88" rx="16"/>
+    <rect x="844" y="278" width="128" height="86" rx="15"/>
+    <rect x="988" y="112" width="98" height="112" rx="15"/>
+    <rect x="128" y="506" width="132" height="88" rx="16"/>
+    <rect x="432" y="528" width="116" height="98" rx="16"/>
+  </g>
+
+  <g fill="#e96f62" opacity=".92">
+    <path d="M79 150 L150 102 L222 150 Z"/>
+    <path d="M230 196 L289 154 L348 196 Z"/>
+    <path d="M405 136 L490 84 L576 136 Z"/>
+    <path d="M832 286 L908 234 L984 286 Z"/>
+    <path d="M976 122 L1037 76 L1098 122 Z"/>
+    <path d="M114 516 L194 462 L274 516 Z"/>
+    <path d="M420 538 L490 490 L562 538 Z"/>
+  </g>
+
+  <g fill="#4fb06d">
+    <circle cx="102" cy="312" r="28"/>
+    <circle cx="136" cy="326" r="24"/>
+    <circle cx="278" cy="96" r="26"/>
+    <circle cx="328" cy="106" r="22"/>
+    <circle cx="780" cy="90" r="30"/>
+    <circle cx="826" cy="104" r="25"/>
+    <circle cx="1106" cy="394" r="30"/>
+    <circle cx="1150" cy="414" r="25"/>
+    <circle cx="330" cy="630" r="30"/>
+    <circle cx="378" cy="640" r="25"/>
+  </g>
+  <g fill="#8b6845">
+    <rect x="96" y="332" width="12" height="34" rx="6"/>
+    <rect x="274" y="118" width="12" height="32" rx="6"/>
+    <rect x="778" y="112" width="12" height="34" rx="6"/>
+    <rect x="1102" y="416" width="12" height="36" rx="6"/>
+    <rect x="326" y="652" width="12" height="34" rx="6"/>
+  </g>
+
+  <g fill="#ffffff" opacity=".62">
+    <circle cx="704" cy="252" r="8"/>
+    <circle cx="744" cy="258" r="8"/>
+    <circle cx="784" cy="266" r="8"/>
+    <circle cx="824" cy="276" r="8"/>
+    <circle cx="356" cy="372" r="7"/>
+    <circle cx="394" cy="358" r="7"/>
+    <circle cx="434" cy="346" r="7"/>
+  </g>
+</svg>
